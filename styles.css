@@ -1060,6 +1060,44 @@ h2 {
   color: var(--color-accent);
 }
 
+.prompt-archive {
+  margin-top: 72px;
+  padding-top: 30px;
+  border-top: 1px solid var(--color-line);
+}
+
+.prompt-archive > h3 {
+  margin: 22px 0 25px;
+  font: 500 clamp(23px, 3vw, 34px) var(--font-display);
+  letter-spacing: -0.025em;
+}
+
+.prompt-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 42px;
+  list-style: none;
+}
+
+.prompt-list li {
+  padding: 13px 0 13px 19px;
+  position: relative;
+  border-top: 1px solid var(--color-line);
+  color: var(--color-muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.prompt-list li::before {
+  content: "•";
+  position: absolute;
+  top: 13px;
+  left: 0;
+  color: var(--color-accent);
+}
+
 :focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 4px;
@@ -1397,5 +1435,14 @@ h2 {
 
   .credit-list li > a {
     grid-column: 2;
+  }
+
+  .prompt-archive {
+    margin-top: 52px;
+    padding-top: 24px;
+  }
+
+  .prompt-list {
+    grid-template-columns: 1fr;
   }
 }
