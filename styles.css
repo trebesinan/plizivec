@@ -8,8 +8,8 @@
   --color-accent: #ff8a3d;
   --color-accent-light: #ffb16b;
   --color-line: rgba(240, 240, 233, 0.14);
-  --font-body: "DM Sans", sans-serif;
-  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Lora", Georgia, serif;
+  --font-display: "DM Serif Display", Georgia, serif;
   --font-mono: "DM Mono", monospace;
 }
 
@@ -167,7 +167,7 @@ h1,
 h2 {
   font-family: var(--font-display);
   font-weight: 500;
-  letter-spacing: -0.065em;
+  letter-spacing: -0.035em;
 }
 
 h1 {
