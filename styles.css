@@ -6,6 +6,7 @@
   --color-text: #f0f0e9;
   --color-muted: #9a9d92;
   --color-accent: #ff8a3d;
+  --color-accent-light: #ffb16b;
   --color-line: rgba(240, 240, 233, 0.14);
   --font-body: "DM Sans", sans-serif;
   --font-display: "Space Grotesk", sans-serif;
@@ -234,8 +235,8 @@ h2 span {
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(ellipse at 66% 34%, rgba(198, 216, 161, 0.21), transparent 29%),
-    linear-gradient(151deg, #59665b 0%, #28352f 39%, #18201e 75%, #151916 100%);
+    radial-gradient(ellipse at 66% 34%, rgba(255, 157, 91, 0.3), transparent 31%),
+    linear-gradient(151deg, #714b39 0%, #443027 39%, #251b17 75%, #171310 100%);
 }
 
 .visual-sun {
@@ -244,17 +245,17 @@ h2 span {
   position: absolute;
   top: 18%;
   right: 18%;
-  border: 1px solid rgba(235, 240, 214, 0.22);
+  border: 1px solid rgba(255, 190, 130, 0.34);
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(237, 239, 201, 0.31), rgba(237, 239, 201, 0.05) 69%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 185, 116, 0.38), rgba(255, 145, 74, 0.08) 69%, transparent 70%);
 }
 
 .visual-grid {
   position: absolute;
   inset: 0;
   opacity: 0.18;
-  background-image: linear-gradient(rgba(232, 238, 215, 0.14) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(232, 238, 215, 0.14) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(255, 204, 159, 0.14) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 204, 159, 0.14) 1px, transparent 1px);
   background-size: 62px 62px;
   mask-image: linear-gradient(to bottom, black, transparent 90%);
 }
@@ -265,7 +266,7 @@ h2 span {
   top: 53%;
   right: 0;
   left: 0;
-  background: rgba(235, 240, 214, 0.25);
+  background: rgba(255, 194, 139, 0.32);
 }
 
 .mountain {
@@ -278,14 +279,14 @@ h2 span {
 .mountain-back {
   height: 53%;
   bottom: 15%;
-  background: linear-gradient(130deg, #465a50, #283a36 70%);
+  background: linear-gradient(130deg, #80553d, #493126 70%);
 }
 
 .mountain-front {
   height: 49%;
   bottom: 0;
   left: -10%;
-  background: linear-gradient(125deg, #273a32, #131b19 78%);
+  background: linear-gradient(125deg, #593522, #1c1511 78%);
   clip-path: polygon(0 100%, 0 54%, 13% 71%, 26% 41%, 38% 65%, 51% 34%, 67% 71%, 79% 45%, 89% 61%, 100% 31%, 100% 100%);
 }
 
@@ -318,9 +319,9 @@ h2 span {
   position: absolute;
   top: 41px;
   left: 81px;
-  border: 3px solid #b0c274;
+  border: 3px solid var(--color-accent-light);
   border-radius: 50%;
-  background: #18201b;
+  background: #211510;
 }
 
 .drone-arm {
@@ -330,7 +331,7 @@ h2 span {
   top: 44px;
   left: 4px;
   border-radius: 5px;
-  background: #c3c9b1;
+  background: #d9aa83;
 }
 
 .drone-arm-left {
@@ -348,9 +349,9 @@ h2 span {
   position: absolute;
   z-index: 1;
   top: 19px;
-  border: 1px solid rgba(240, 240, 233, 0.57);
+  border: 1px solid rgba(255, 205, 164, 0.62);
   border-radius: 50%;
-  background: rgba(212, 219, 191, 0.2);
+  background: rgba(255, 157, 91, 0.18);
 }
 
 .prop-one {
@@ -566,9 +567,9 @@ h2 {
   place-items: center;
   overflow: hidden;
   position: relative;
-  background-color: #222820;
-  background-image: linear-gradient(rgba(233, 238, 218, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(233, 238, 218, 0.045) 1px, transparent 1px);
+  background-color: #2a1e17;
+  background-image: linear-gradient(rgba(255, 190, 143, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 190, 143, 0.07) 1px, transparent 1px);
   background-size: 26px 26px;
 }
 
@@ -603,7 +604,7 @@ h2 {
   top: 38px;
   left: 27px;
   border-radius: 5px;
-  background: #a8b296;
+  background: #c28e69;
 }
 
 .mini-arm-a { transform: rotate(34deg); }
@@ -617,7 +618,7 @@ h2 {
   top: 12px;
   border: 2px solid #ff8a3d;
   border-radius: 50%;
-  background: #30392b;
+  background: #382116;
 }
 
 .mini-motor-a { left: 13px; }
@@ -657,16 +658,16 @@ h2 {
 }
 
 .gear-art-radio {
-  background-color: #252a24;
+  background-color: #2b1d16;
 }
 
 .radio-shape {
   width: 79px;
   height: 91px;
   position: relative;
-  border: 1px solid #89907d;
+  border: 1px solid #bc8058;
   border-radius: 19px 19px 11px 11px;
-  background: linear-gradient(135deg, #535b4d, #272d25 72%);
+  background: linear-gradient(135deg, #755039, #302019 72%);
   box-shadow: 12px 15px 30px rgba(0, 0, 0, 0.3);
   transform: perspective(150px) rotateY(-10deg) rotate(-4deg);
 }
@@ -678,7 +679,7 @@ h2 {
   height: 43px;
   position: absolute;
   top: -34px;
-  background: #a8b095;
+  background: #c58b60;
 }
 
 .radio-shape::before { left: 15px; transform: rotate(-10deg); }
@@ -689,9 +690,9 @@ h2 {
   height: 21px;
   position: absolute;
   top: 19px;
-  border: 2px solid #a7b18f;
+  border: 2px solid #d19568;
   border-radius: 50%;
-  background: #171b16;
+  background: #1c1410;
 }
 
 .radio-shape i:first-child { left: 11px; }
@@ -718,16 +719,16 @@ h2 {
 }
 
 .gear-art-goggles {
-  background-color: #202721;
+  background-color: #281d17;
 }
 
 .goggle-shape {
   width: 116px;
   height: 55px;
   position: relative;
-  border: 1px solid #a8b095;
+  border: 1px solid #d19769;
   border-radius: 15px 15px 24px 24px;
-  background: linear-gradient(140deg, #69715e, #292f29 74%);
+  background: linear-gradient(140deg, #80583c, #302019 74%);
   box-shadow: 10px 17px 25px rgba(0, 0, 0, 0.32);
   transform: rotate(-5deg);
 }
@@ -748,9 +749,9 @@ h2 {
   height: 28px;
   position: absolute;
   top: 13px;
-  border: 2px solid #b9c096;
+  border: 2px solid #db9c6b;
   border-radius: 50%;
-  background: radial-gradient(circle, #71865a 0%, #1b211b 70%);
+  background: radial-gradient(circle, #b96b3e 0%, #211611 70%);
 }
 
 .goggle-shape i:first-child { left: 15px; }
