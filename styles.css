@@ -1,11 +1,11 @@
 :root {
   color-scheme: dark;
-  --color-bg: #10120f;
-  --color-panel: #171a16;
-  --color-panel-light: #1d211c;
+  --color-bg: #120f0d;
+  --color-panel: #1b1714;
+  --color-panel-light: #241d18;
   --color-text: #f0f0e9;
   --color-muted: #9a9d92;
-  --color-accent: #d5f36a;
+  --color-accent: #ff8a3d;
   --color-line: rgba(240, 240, 233, 0.14);
   --font-body: "DM Sans", sans-serif;
   --font-display: "Space Grotesk", sans-serif;
@@ -152,7 +152,7 @@ button {
   height: 7px;
   border-radius: 50%;
   background: var(--color-accent);
-  box-shadow: 0 0 12px rgba(213, 243, 106, 0.45);
+  box-shadow: 0 0 12px rgba(255, 138, 61, 0.45);
 }
 
 h1,
@@ -210,7 +210,7 @@ h2 span {
 }
 
 .button-primary:hover {
-  background: #e2ff7e;
+  background: #ffa15c;
 }
 
 .hero-footnote {
@@ -308,7 +308,7 @@ h2 span {
   left: 39px;
   border: 1px solid rgba(240, 240, 233, 0.6);
   border-radius: 42% 48% 36% 38%;
-  background: linear-gradient(155deg, #d5f36a, #859f45);
+  background: linear-gradient(155deg, #ffad62, #d45b27);
   transform: rotate(-8deg);
 }
 
@@ -367,7 +367,7 @@ h2 span {
   position: absolute;
   top: 33%;
   left: 27%;
-  border-top: 1px dashed rgba(213, 243, 106, 0.76);
+  border-top: 1px dashed rgba(255, 138, 61, 0.76);
   border-radius: 50%;
   transform: rotate(15deg);
 }
@@ -515,7 +515,7 @@ h2 {
 .gear-section {
   padding-top: 94px;
   padding-bottom: 108px;
-  background: #151814;
+  background: #191512;
 }
 
 .section-heading {
@@ -577,7 +577,7 @@ h2 {
   position: absolute;
   width: 120px;
   height: 120px;
-  border: 1px solid rgba(213, 243, 106, 0.13);
+  border: 1px solid rgba(255, 138, 61, 0.18);
   border-radius: 50%;
 }
 
@@ -615,7 +615,7 @@ h2 {
   position: absolute;
   z-index: 1;
   top: 12px;
-  border: 2px solid #d5f36a;
+  border: 2px solid #ff8a3d;
   border-radius: 50%;
   background: #30392b;
 }
@@ -628,7 +628,7 @@ h2 {
   height: 7px;
   position: absolute;
   top: 15px;
-  border: 1px solid rgba(213, 243, 106, 0.55);
+  border: 1px solid rgba(255, 138, 61, 0.6);
   border-radius: 50%;
 }
 
@@ -642,7 +642,7 @@ h2 {
   top: 34px;
   left: 36px;
   border-radius: 40%;
-  background: linear-gradient(135deg, #d5f36a, #819544);
+  background: linear-gradient(135deg, #ffad62, #d45b27);
 }
 
 .mini-lens {
@@ -651,9 +651,9 @@ h2 {
   position: absolute;
   top: 37px;
   left: 69px;
-  border: 2px solid #34402d;
+  border: 2px solid #4a2a1a;
   border-radius: 50%;
-  background: #b2d15a;
+  background: #ff9a4d;
 }
 
 .gear-art-radio {
@@ -714,7 +714,7 @@ h2 {
   top: 3px;
   left: 36px;
   border-radius: 50%;
-  background: #d5f36a;
+  background: #ff8a3d;
 }
 
 .gear-art-goggles {
@@ -739,7 +739,7 @@ h2 {
   position: absolute;
   top: 7px;
   left: -21px;
-  border: 1px dashed rgba(213, 243, 106, 0.45);
+  border: 1px dashed rgba(255, 138, 61, 0.5);
   border-radius: 50%;
 }
 
@@ -762,7 +762,7 @@ h2 {
   position: absolute;
   top: 18px;
   left: 52px;
-  background: #a3b65f;
+  background: #ff9a4d;
   clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
 }
 
@@ -988,7 +988,7 @@ h2 {
 .photo-credits {
   padding-top: 78px;
   padding-bottom: 104px;
-  background: #151814;
+  background: #191512;
 }
 
 .credits-heading {
