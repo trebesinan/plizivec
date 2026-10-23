@@ -914,14 +914,6 @@ h2 {
   background: var(--color-panel);
 }
 
-.gallery-card-wide {
-  grid-column: span 2;
-}
-
-.gallery-card-tall {
-  grid-row: span 2;
-}
-
 .gallery-card::after {
   content: "";
   position: absolute;
@@ -976,6 +968,94 @@ h2 {
   letter-spacing: -0.045em;
 }
 
+.about-hero {
+  padding-top: 94px;
+  padding-bottom: 100px;
+}
+
+.about-hero h1 {
+  margin-top: 35px;
+}
+
+.about-hero > p {
+  max-width: 550px;
+  margin: 27px 0 20px;
+  color: var(--color-muted);
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.photo-credits {
+  padding-top: 78px;
+  padding-bottom: 104px;
+  background: #151814;
+}
+
+.credits-heading {
+  margin-top: 29px;
+  display: grid;
+  grid-template-columns: 1fr 0.55fr;
+  align-items: end;
+  gap: 10%;
+}
+
+.credits-heading > p {
+  max-width: 330px;
+  margin: 0 0 5px;
+  color: var(--color-muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.credit-list {
+  margin: 43px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--color-line);
+}
+
+.credit-list li {
+  min-height: 91px;
+  padding: 17px 0;
+  display: grid;
+  grid-template-columns: 45px 1fr auto;
+  align-items: center;
+  gap: 18px;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.credit-index {
+  color: var(--color-accent);
+  font: 10px var(--font-mono);
+}
+
+.credit-list h3 {
+  margin: 0 0 5px;
+  font: 500 17px var(--font-display);
+}
+
+.credit-list li p {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.credit-list a {
+  color: var(--color-text);
+  font-size: 11px;
+  transition: color 180ms ease;
+}
+
+.credit-list a:hover {
+  color: var(--color-accent);
+}
+
+.credit-list a span {
+  margin-left: 7px;
+  color: var(--color-accent);
+}
+
 :focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 4px;
@@ -1021,6 +1101,12 @@ h2 {
   .gallery-grid {
     grid-auto-rows: 120px;
     gap: 10px;
+  }
+
+  .about-hero,
+  .photo-credits {
+    padding-right: 8%;
+    padding-left: 8%;
   }
 }
 
@@ -1261,11 +1347,6 @@ h2 {
     gap: 9px;
   }
 
-  .gallery-card-tall {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
   .gallery-card figcaption {
     right: 8px;
     bottom: 8px;
@@ -1280,5 +1361,37 @@ h2 {
     padding-bottom: 65px;
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .about-hero {
+    padding: 70px 7% 76px;
+  }
+
+  .about-hero h1 {
+    margin-top: 28px;
+    font-size: clamp(58px, 13vw, 82px);
+  }
+
+  .photo-credits {
+    padding: 65px 7% 76px;
+  }
+
+  .credits-heading {
+    margin-top: 25px;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .credit-list {
+    margin-top: 30px;
+  }
+
+  .credit-list li {
+    grid-template-columns: 30px 1fr;
+    gap: 8px 12px;
+  }
+
+  .credit-list li > a {
+    grid-column: 2;
   }
 }
